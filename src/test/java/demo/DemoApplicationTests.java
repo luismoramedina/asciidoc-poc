@@ -19,7 +19,7 @@ public class DemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
-        String home = helloController.home();
+        String home = helloController.toString();
         System.out.println("home = " + home);
         assertNotNull(home);
     }

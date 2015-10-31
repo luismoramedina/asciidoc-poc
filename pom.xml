@@ -39,6 +39,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- thymeleaf -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring4</artifactId>
+			<version>2.1.2.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf</artifactId>
+			<version>2.1.2.RELEASE</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -72,7 +86,7 @@
                 <executions>
                     <execution>
                         <id>asciidoc-to-html</id>
-                        <phase>generate-resources</phase>
+                        <phase>generate-sources</phase>
                         <goals>
                             <goal>process-asciidoc</goal>
                         </goals>

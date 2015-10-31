@@ -8,7 +8,6 @@ import org.springframework.context.annotation.ImportResource;
 import java.util.Arrays;
 
 @SpringBootApplication
-@ImportResource("classpath*:*-context*.xml")
 public class DemoApplication {
 
     public static void main(String[] args) {

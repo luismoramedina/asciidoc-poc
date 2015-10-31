@@ -1,9 +1,9 @@
 ----
-include::{sourcedir}/java/example/StringUtils.java[tags=contains,indent=0]
+include::{sourcedir}/java/org/test/asciidoc/StringUtils.java[tags=contains,indent=0]
 ----
 
 ----
-include::{sourcedir}/java/example/StringUtils.java[tags=other,indent=0]
+include::{sourcedir}/java/org/test/asciidoc/StringUtils.java[tags=other,indent=0]
 ----
 
 ----
