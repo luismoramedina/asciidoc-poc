@@ -80,6 +80,7 @@
                 </executions>
             </plugin>
 		</plugins>
+		<finalName>asciidoc-poc</finalName>
 	</build>
 
 </project>
