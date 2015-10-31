@@ -1,0 +1,11 @@
+----
+include::{sourcedir}/java/example/StringUtils.java[tags=contains,indent=0]
+----
+
+----
+include::{sourcedir}/java/example/StringUtils.java[tags=other,indent=0]
+----
+
+----
+include::{sourcedir}/resources/application.properties[tags=rest,indent=0]
+----
