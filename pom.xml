@@ -53,6 +53,19 @@
 			<version>2.1.2.RELEASE</version>
 		</dependency>
 
+		<!-- convert adoc files -->
+		<dependency>
+			<groupId>org.asciidoctor</groupId>
+			<artifactId>asciidoctorj</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jruby</groupId>
+			<artifactId>jruby-complete</artifactId>
+			<version>1.7.20.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

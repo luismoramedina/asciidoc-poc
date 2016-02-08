@@ -1,3 +1,9 @@
+=Titlelllll
+
+----
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/prereq_editor_jdk_buildtools.adoc[]
+----
+
 ----
 include::{sourcedir}/java/org/test/asciidoc/StringUtils.java[tags=contains,indent=0]
 ----
@@ -8,4 +14,8 @@ include::{sourcedir}/java/org/test/asciidoc/StringUtils.java[tags=other,indent=0
 
 ----
 include::{sourcedir}/resources/application.properties[tags=rest,indent=0]
+----
+
+----
+include::http://localhost:8000/StringUtils.java[tags=other,indent=0]
 ----
