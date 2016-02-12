@@ -16,7 +16,7 @@ public class Converter {
         Asciidoctor asciidoctor = Asciidoctor.Factory.create();
 
         Attributes attributes = new Attributes();
-        attributes.setBackend("bootstrap");
+        attributes.setBackend("html");
         attributes.setAttribute("sourcedir", "c:\\datos\\Snippets\\asciidocs-poc\\src\\main\\");
         attributes.setAttribute(Attributes.ALLOW_URI_READ, "true");
 
